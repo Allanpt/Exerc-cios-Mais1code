@@ -8,6 +8,6 @@ const abrevia = (nomes) => {
     return abreviacoes
 }
 
-console.log(abrevia("Ezequiel Lessa"))
+console.log(abrevia("Allan Paixão"))
 
 
