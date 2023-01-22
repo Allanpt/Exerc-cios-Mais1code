@@ -11,4 +11,4 @@ const divisivel = (x, y, z) => {
     }
 
 }
-console.log(divisivel(13,4,5))
+console.log(divisivel()) // Digite três números
