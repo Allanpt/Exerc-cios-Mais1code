@@ -4,4 +4,4 @@ function tudoMaiusculo(parametro) {
 
 }
 
-console.log(tudoMaiusculo("matheus"))
+console.log(tudoMaiusculo()) // Digite uma String
