@@ -6,7 +6,7 @@ const calculoImc = (peso, alturaEmCentimetros) => {
 
     } else {
         return "Um dos dois parâmetros não são numeros"
-        
+
     }
 }
-console.log(calculoImc(81, 180))
+console.log(calculoImc(81, 180)) // Digite um peso(kg) e uma altura(cm)
