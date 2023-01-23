@@ -14,5 +14,7 @@ const stringsEndsWith = (palavra1, palavra2) => {
         return "Algum parâmetro não é uma string"
     }
 }
-console.log(stringsEndsWith("Carro","ror"))
+console.log(stringsEndsWith()) // Digite duas Strings
+console.log(stringsEndsWith("carro","ro")) // true
+console.log(stringsEndsWith("carro","ror")) // false
 
