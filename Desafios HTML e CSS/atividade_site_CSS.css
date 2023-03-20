@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Titillium Web", Arial, sans-serif;
+    
+}
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+ul li {
+    list-style: none;
+}
+.topo-do-cabeçalho {
+    display: flex;
+    background-color: #F7931A;
+    border: none;
+    height: 55px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+
+}
+.botão-cabeçalho {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.logo-btc {
+    height: 29px;
+    width: 132px; 
+    /* Falta colocar espaço na logo entre os itens */
+}
+.cabeçalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Falta espaço da 'seleção da linguagem (Portugues Brasil) */
+}
+.lista-horizontal-cabeçalho {
+    display: flex;
+    justify-content: center;
+}
+.lista-horizontal-cabeçalho li {
+    margin: 0 15px;
+}
+.corpo {
+    display: flex;
+    padding: 130px 30px 50px;
+    align-items: center;
+    flex-direction: column;
+}
+.frase {
+    font-size: 321.5%;
+    color: #1C1F30;
+    width: 770px;
+    margin: 0 auto 45px;
+    text-align: center;
+}
+.botões {
+    text-align: center;
+}
+.b {
+    display: inline-block;
+    border: 1px solid #FF9500;
+    width: 290px;
+    height: 55px;
+    max-width: 100%;
+    padding: 16px 25px;
+    font-size: 100%;
+    font-weight: 600;
+    border-radius: 1px;
+}
+.b.laranja {
+    background: #FF9500;
+    color: #fff;
+}
+.b.branco {
+    color: #FF9500;
+    margin-left: 6px;
+}
+.main-video-bitcoin {
+    margin: 80px auto 0;
+    text-align: center;
+}
+.b4 {
+    background: url(https://bitcoin.org/img/icons/play-btn.svg?1528322191) left no-repeat;
+    padding: 0 0 0 65px;
+    background-size: contain;
+    height: 50px;
+    margin: 0 auto;
+    font-size: 100%;
+    font-family: inherit;
+}
+.imagem {
+    position: relative;
+    top: 60px;
+    text-align: center;
+    width:100%;
+   /* faltou cortar a imagem para se encaixar na página */
+}
